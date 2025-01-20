@@ -71,3 +71,16 @@ ul a{
     background-position: center;
 
 }
+
+.sponsors-companies{
+    display: grid;
+    align-items: center;
+    
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 30px;
+}
+
+.sponsors-companies img{
+    width: 80px;
+    height: 40px;
+}
